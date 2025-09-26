@@ -1,0 +1,39 @@
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-right: 1px solid #eee;
+    width: 200px;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
